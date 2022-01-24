@@ -28,7 +28,7 @@ const play = (message, file) => {
         })
         .catch(console.error)
   } else {
-    message.reply('pls join voice channel first')
+    message.reply('Hi! I\'m Troy McClure! You might want to join a voice channel first!')
   }
 }
 
