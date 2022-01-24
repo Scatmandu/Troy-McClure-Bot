@@ -5,9 +5,9 @@ const utils = require('./utils');
 
 // list of all public clips, it's in global scope cause multiple files need em
 const clips = [
-    'areugay',
-    'earwigsew',
-    'planetoftheheaps',
+    'gay',
+    'earwigs',
+    'apes',
 ]
 
 const sendHelpMenu = message => {
@@ -28,7 +28,7 @@ const sendHelpMenu = message => {
     
     message.channel.send(helpMenu)
     message.channel.send(
-        `\n\n_Example_ \n \`!troy areugay\``
+        `\n\n_Example_ \n \`!troy apes\``
     )
 }
 

@@ -38,9 +38,6 @@ client.on('message', message => {
         case 'random':
             commands.playRandomClip(message);
             break;
-        case 'admin':
-            commands.replyAllFiles(message);
-            break;
         default:
             utils.play(message, command);
     }
